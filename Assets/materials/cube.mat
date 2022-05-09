@@ -6,10 +6,10 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: cube
-  m_Shader: {fileID: 4800000, guid: 662ff03b4382d8b4c90794fc519a9a1f, type: 3}
-  m_ShaderKeywords: _USEWIREFRAME_ON
-  m_LightmapFlags: 4
+  m_Name: Cube
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -66,21 +66,11 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PulseWidth: 1
-    - _Radius: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _UseWireframe: 1
-    - _WireThickness: 681
-    - _WireframeFill: 0.1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9294118, g: 0.4156863, b: 0.07058824, a: 1}
-    - _Center: {r: 0, g: 0, b: 0, a: -1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.8014706, g: 0.023572687, b: 0.023572687, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PulseColor: {r: 0.97794116, g: 0.71276057, b: 0.39549094, a: 1}
-    - _WireColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WireframeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
